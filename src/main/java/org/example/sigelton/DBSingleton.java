@@ -18,7 +18,6 @@ public class DBSingleton {
                 }
             }
         }
-
         return dbSingleton;
     }
 }
