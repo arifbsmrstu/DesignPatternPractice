@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class DBSingletonTest {
 
     @Test
-    public void both_object_are_same() {
+    public void Both_Object_Are_Same() {
         DBSingleton instance1 = DBSingleton.getInstance();
         DBSingleton instance2 = DBSingleton.getInstance();
 
